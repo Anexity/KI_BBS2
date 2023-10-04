@@ -1,0 +1,4 @@
+nav {display:flex; justify-content: center;}
+nav a {display:inline-block; padding-inline: 25px; justify-content: center; text-align: center;}
+
+header {text-align: center;font-size: xx-large; font-weight: 600;}
