@@ -1,4 +1,24 @@
-nav {display:flex; justify-content: center;}
-nav a {display:inline-block; padding-inline: 25px; justify-content: center; text-align: center;}
+@font-face {
+    font-family:cyb ;
+    src: url(../fonts/Turret_Road/TurretRoad-Bold.ttf);
+    font-weight: 500 ;
+}
 
-header {text-align: center;font-size: xx-large; font-weight: 600;}
+@font-face {
+    font-family: bar;
+    src: url(../fonts/Libre_Barcode_39/LibreBarcode39-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: seri;
+    src: url(../fonts/Rozha_One/RozhaOne-Regular.ttf);
+    font-weight: 300;
+}
+
+nav {display:flex; justify-content: center; font-family: bar;background-color: #161616;}
+nav a:hover {font-family: cyb; font-size: small; position: static;}
+nav a {display:inline-block; padding-inline: 25px; justify-content: center; text-align: center;color: #40c0f0;}
+body {background-color: #202020;}
+header {text-align: center;font-size:70px; font-weight: 600; font-family: cyb;color:#20a0c0;filter: blur(0.5px);padding-top:50px;
+    padding-bottom:20px}
