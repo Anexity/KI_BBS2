@@ -28,3 +28,7 @@ header {text-align: center;font-size:70px; font-weight: 600; font-family: cyb;co
 .idout {padding-left:5%;padding-right:5%}
 h2 {text-align: center; color: aliceblue; font-family: cyb; font-size: 45px; position: relative; top: -140px}
 .textge a {position: relative; top: -140px}
+.hidden {visibility: hidden; height:0px;width:0px}
+.hoverclass:hover + .hidden {position: relative;visibility: visible;color: aliceblue;height:0px;width:0px;
+    text-align: center;}
+.hoverclass:hover {filter: blur(2px);}
