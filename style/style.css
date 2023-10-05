@@ -18,7 +18,7 @@
 
 nav {display:flex; justify-content: center; font-family: bar;position: relative; top:-140px}
 nav a:hover {font-family: cyb; font-size: small; position: static;}
-nav a {display:inline-block; padding-inline: 25px; justify-content: center; text-align: center;color: #40c0f0;}
+nav a {display:inline-block; padding-inline:25px; justify-content: center; text-align: center;color: #40c0f0;}
 body {background-color: #151515;}
 header {text-align: center;font-size:70px; font-weight: 600; font-family: cyb;color:#20a0c0;filter: blur(0.5px);padding-top:50px;
     padding-bottom:20px}
@@ -28,7 +28,5 @@ header {text-align: center;font-size:70px; font-weight: 600; font-family: cyb;co
 .idout {padding-left:5%;padding-right:5%}
 h2 {text-align: center; color: aliceblue; font-family: cyb; font-size: 45px; position: relative; top: -140px}
 .textge a {position: relative; top: -140px}
-.hidden {visibility: hidden; height:0px;width:0px}
-.hoverclass:hover + .hidden {position: relative;visibility: visible;color: aliceblue;height:0px;width:0px;
-    text-align: center;}
-.hoverclass:hover {filter: blur(2px);}
+.hidden {position: relative;width:0px;height:0px; rotate: 270deg;top:-260px;right:30px;
+    color:aliceblue;text-decoration:wavy;font-family: cyb;}
