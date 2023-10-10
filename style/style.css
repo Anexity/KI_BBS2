@@ -35,9 +35,11 @@ h2 {text-align: center; color: aliceblue; font-family: cyb; font-size: 45px; pos
 .zusammen, .zusammen2, .nutzin1, .nutzin2, .contin, .contin2, .contin3
 {display:flex;width:900px;justify-self: center;margin: auto; font-family: 'Times New Roman',
     Times, serif;font-size: 20.5px; text-align: justify;padding:25px;background-color: #202020;color: aliceblue;}
-.imgout1 {display:flex;width:900px;justify-content: center;margin:auto;background-color: #202020;} 
+.imgout1 {display:flex;width:900px;justify-content: center;margin:auto;} 
 .imgout1 img:hover {filter:blur(2px)}
 .head2 {display:flex;width:900px;justify-self: center;margin: auto; font-family: 'Times New Roman',
     Times, serif;font-size: 30px; text-align: center;padding:25px;background-color: #202020;color: aliceblue;}
 html {min-height: 100%}
-;
+p {color:aliceblue}
+nav p {color:#40c0f0}
+
