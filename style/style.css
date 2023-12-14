@@ -16,11 +16,11 @@
     font-weight: 300;
 }
 
-nav {display:flex; justify-content: center; font-family: bar ;position: relative; top:3vw}
+nav {display:flex; justify-content: center; font-family: bar ;position: relative; top:-115px}
 nav a:hover {font-family: cyb; font-size: small; position: static;}
 nav a {display:inline-block; padding-inline:25px; justify-content: center; text-align: center;color: #40c0f0;}
 body {background-color: #151515;min-height:auto;}
-header {text-align: center;font-size: 50px; font-weight: 600; font-family: cyb;color:aliceblue;filter: blur(0.5px)
+header {text-align: center;font-size: 50px; font-weight: 600; font-family: cyb;color:rgb(69, 85, 99);filter: blur(0.5px)
     ;padding-top:0px; padding-bottom:0px}
 .IdIm {display:inline-flex;justify-content: center;padding-left:2%;padding-right:5%;position:relative;top:-60px;
     background-color:#202020;padding-top: 10px;}
